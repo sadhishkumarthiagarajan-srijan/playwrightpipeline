@@ -2,7 +2,6 @@ pipeline {
   agent{
   docker {
       image 'mcr.microsoft.com/playwright:v1.34.3-jammy'
-      label 'my-docker-agent'
     }
   }
   stages {
